@@ -28,17 +28,17 @@
       ],
       "objects": {
         "manifest": {
-          "url": "https://bdherouville.github.io/WearOSM/packages/fr-paris-core-1.0.0.manifest.json",
+          "url": "https://bdherouville.github.io/balise-maps/packages/fr-paris-core-1.0.0.manifest.json",
           "bytes": 1686,
           "sha256": "19b2ff012cfb9537d88d996169a297cd05d947ae2a12734f9427430768465443"
         },
         "signature": {
-          "url": "https://bdherouville.github.io/WearOSM/packages/fr-paris-core-1.0.0.manifest.sig",
+          "url": "https://bdherouville.github.io/balise-maps/packages/fr-paris-core-1.0.0.manifest.sig",
           "bytes": 64,
           "sha256": "70eda6b7fdc86be0bc8ad1dce928263a93a6da726de740851f198db717a8b441"
         },
         "archive": {
-          "url": "https://bdherouville.github.io/WearOSM/packages/fr-paris-core-1.0.0.pmtiles",
+          "url": "https://bdherouville.github.io/balise-maps/packages/fr-paris-core-1.0.0.pmtiles",
           "bytes": 87864697,
           "sha256": "989ac702a96fdfcefac47cf1355cd11842f9d56ec386427f394266fce820aaa4"
         }
