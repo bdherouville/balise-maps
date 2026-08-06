@@ -1,0 +1,64 @@
+{
+  "schema": "wearosm.map-package/1",
+  "packageId": "fr-paris-core",
+  "packageVersion": "1.0.0",
+  "displayName": "Paris & proche couronne",
+  "regionCodes": [
+    "FR-IDF"
+  ],
+  "bounds": {
+    "west": 2.15,
+    "south": 48.75,
+    "east": 2.52,
+    "north": 48.95
+  },
+  "center": {
+    "longitude": 2.35,
+    "latitude": 48.85,
+    "zoom": 11
+  },
+  "archive": {
+    "fileName": "fr-paris-core-1.0.0.pmtiles",
+    "bytes": 87864697,
+    "sha256": "989ac702a96fdfcefac47cf1355cd11842f9d56ec386427f394266fce820aaa4",
+    "pmtilesSpecVersion": 3,
+    "tileType": "mvt",
+    "tileCompression": "gzip"
+  },
+  "compatibility": {
+    "minZoom": 8,
+    "maxZoom": 15,
+    "tileSchema": "openmaptiles",
+    "tileSchemaVersion": "3.16.0-planetiler.91516fdf",
+    "styleCompatibilityVersion": 1
+  },
+  "build": {
+    "generatedAt": "2026-08-06T21:13:25Z",
+    "dataVersion": "2026-08-05",
+    "pipeline": {
+      "id": "wearosm-planetiler-openmaptiles",
+      "version": "1.0.0",
+      "sha256": "9926a3eab3fd1d8cf1a4d9b9584d3279ae77d64a76a83c9a0b8a22d936c41fc4"
+    },
+    "source": {
+      "url": "https://download.geofabrik.de/europe/france/ile-de-france-latest.osm.pbf",
+      "snapshotDate": "2026-08-05",
+      "bytes": 336124121,
+      "sha256": "2af6d9f617adf7dc749c724811b3e383e37d3b1cfe62ac449f51c92539213670",
+      "licence": "ODbL-1.0"
+    }
+  },
+  "attributions": [
+    {
+      "text": "\u00a9 OpenStreetMap contributors",
+      "url": "https://www.openstreetmap.org/copyright",
+      "licence": "ODbL-1.0"
+    },
+    {
+      "text": "\u00a9 OpenMapTiles",
+      "url": "https://openmaptiles.org/",
+      "licence": "CC-BY-4.0"
+    }
+  ],
+  "signingKeyId": "balise-r1-2026"
+}
