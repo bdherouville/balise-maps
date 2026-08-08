@@ -13,9 +13,9 @@
     "north": 48.95
   },
   "center": {
-    "longitude": 2.35,
+    "longitude": 2.335,
     "latitude": 48.85,
-    "zoom": 11
+    "zoom": 10
   },
   "archive": {
     "fileName": "fr-paris-core-1.0.0.pmtiles",
