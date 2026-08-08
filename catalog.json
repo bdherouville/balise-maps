@@ -35,7 +35,7 @@
         "signature": {
           "url": "https://bdherouville.github.io/balise-maps/packages/fr-paris-core-1.0.0.manifest.sig",
           "bytes": 64,
-          "sha256": "70eda6b7fdc86be0bc8ad1dce928263a93a6da726de740851f198db717a8b441"
+          "sha256": "c7d6fab3d660ee251a37396f11a504c42a44893dec010b35257cbf5ee82e82af"
         },
         "archive": {
           "url": "https://bdherouville.github.io/balise-maps/packages/fr-paris-core-1.0.0.pmtiles",

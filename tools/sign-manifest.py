@@ -57,6 +57,11 @@ def main() -> int:
 
     size = len(manifest_bytes)
     sha = hashlib.sha256(manifest_bytes).hexdigest()
+    # The signature file changes too, and the catalogue records its digest as well. Forgetting
+    # this shipped a catalogue whose signature digest still described the previous signature:
+    # the watch fetched 64 correct bytes, hashed them, disagreed with the catalogue, and refused
+    # the package -- with no hint that the manifest itself was fine.
+    signature_sha = hashlib.sha256(signature).hexdigest()
 
     catalog = json.loads(CATALOG.read_text(encoding="utf-8"))
     updated = False
@@ -67,6 +72,8 @@ def main() -> int:
         ):
             entry["objects"]["manifest"]["bytes"] = size
             entry["objects"]["manifest"]["sha256"] = sha
+            entry["objects"]["signature"]["bytes"] = len(signature)
+            entry["objects"]["signature"]["sha256"] = signature_sha
             updated = True
     if not updated:
         print(
@@ -77,6 +84,7 @@ def main() -> int:
     CATALOG.write_text(json.dumps(catalog, indent=2, ensure_ascii=False) + "\n", encoding="utf-8")
 
     print(f"signed {manifest_path.name} ({size} bytes, sha256 {sha})")
+    print(f"signature sha256 {signature_sha}")
     print(f"wrote  {signature_path.name}")
     print("updated catalog.json manifest bytes and sha256")
     print("\nnow run: python3 tools/verify-package-consistency.py --key-id <id> --key <base64 public key>")

@@ -136,6 +136,16 @@ def check(entry: dict, failures: list[str], key_id: str | None, key_b64: str | N
         fail("catalogue archive sha256 disagrees with the archive file")
 
     signature = signature_path.read_bytes()
+    # The signature object has its own size and digest in the catalogue, exactly like the manifest.
+    # This check was missing in the first version of this script, and its absence let a catalogue
+    # ship whose signature digest still described the pre-re-signing file. The script reported
+    # GREEN; the watch refused the package. A consistency checker with a hole is worse than none,
+    # because it is believed.
+    if len(signature) != objects["signature"]["bytes"]:
+        fail(f"catalogue says signature is {objects['signature']['bytes']} bytes, file is {len(signature)}")
+    signature_sha = hashlib.sha256(signature).hexdigest()
+    if signature_sha != objects["signature"]["sha256"]:
+        fail("catalogue signature sha256 does not match the signature file")
     if len(signature) != 64:
         fail(f"signature is {len(signature)} bytes, expected 64")
     elif key_b64 and key_id:
