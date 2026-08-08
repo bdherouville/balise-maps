@@ -16,12 +16,12 @@
       "archiveBytes": 87864697,
       "attributions": [
         {
-          "text": "\u00a9 OpenStreetMap contributors",
+          "text": "© OpenStreetMap contributors",
           "url": "https://www.openstreetmap.org/copyright",
           "licence": "ODbL-1.0"
         },
         {
-          "text": "\u00a9 OpenMapTiles",
+          "text": "© OpenMapTiles",
           "url": "https://openmaptiles.org/",
           "licence": "CC-BY-4.0"
         }
@@ -29,8 +29,8 @@
       "objects": {
         "manifest": {
           "url": "https://bdherouville.github.io/balise-maps/packages/fr-paris-core-1.0.0.manifest.json",
-          "bytes": 1686,
-          "sha256": "19b2ff012cfb9537d88d996169a297cd05d947ae2a12734f9427430768465443"
+          "bytes": 1687,
+          "sha256": "5d4f1833c9ee625af3760363939f61a83ddbc1a97b4af8c7361854f8aa2c84f3"
         },
         "signature": {
           "url": "https://bdherouville.github.io/balise-maps/packages/fr-paris-core-1.0.0.manifest.sig",
