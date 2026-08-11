@@ -1,0 +1,61 @@
+{
+  "schema": "wearosm.map-package/1",
+  "packageId": "fr-pays-basque",
+  "packageVersion": "1.0.0",
+  "displayName": "Pays Basque",
+  "bounds": {
+    "west": -1.8,
+    "south": 43.28,
+    "east": -1.4,
+    "north": 43.52
+  },
+  "center": {
+    "longitude": -1.6,
+    "latitude": 43.4,
+    "zoom": 11
+  },
+  "archive": {
+    "fileName": "fr-pays-basque-1.0.0.pmtiles",
+    "bytes": 17011979,
+    "sha256": "1fc008faccc1aac13e85b868f6988ce85f0b1c6620f0d49890d0fe3e4c6532c1",
+    "pmtilesSpecVersion": 3,
+    "tileType": "mvt",
+    "tileCompression": "gzip"
+  },
+  "compatibility": {
+    "minZoom": 8,
+    "maxZoom": 15,
+    "tileSchema": "openmaptiles",
+    "tileSchemaVersion": "3.16.0-planetiler.91516fdf",
+    "styleCompatibilityVersion": 1
+  },
+  "build": {
+    "generatedAt": "2026-08-11T13:23:22.184401Z",
+    "dataVersion": "2026-08-11",
+    "pipeline": {
+      "id": "wearosm-planetiler-openmaptiles",
+      "version": "1.0.0",
+      "sha256": "c7b41db79515c95bc9af8ab3737a90ffe8e0f3665b122f5387f0aa28fac38aa3"
+    },
+    "source": {
+      "url": "https://download.geofabrik.de/europe/france/aquitaine-latest.osm.pbf",
+      "snapshotDate": "2026-08-11",
+      "bytes": 294511126,
+      "sha256": "db4dd3e3cf5b00d8b720045062d2311d06490ccbf4ea3ee708bb947bd66c0601",
+      "licence": "ODbL-1.0"
+    }
+  },
+  "attributions": [
+    {
+      "text": "© OpenStreetMap contributors",
+      "url": "https://www.openstreetmap.org/copyright",
+      "licence": "ODbL-1.0"
+    },
+    {
+      "text": "© OpenMapTiles",
+      "url": "https://openmaptiles.org/",
+      "licence": "CC-BY-4.0"
+    }
+  ],
+  "signingKeyId": "wearosm-r1-2026"
+}

@@ -1,6 +1,6 @@
 {
   "schema": "wearosm.map-catalog/1",
-  "generatedAt": "2026-08-06T21:13:43Z",
+  "generatedAt": "2026-08-11T13:25:15Z",
   "entries": [
     {
       "packageId": "fr-paris-core",
@@ -41,6 +41,48 @@
           "url": "https://bdherouville.github.io/balise-maps/packages/fr-paris-core-1.0.0.pmtiles",
           "bytes": 87864697,
           "sha256": "989ac702a96fdfcefac47cf1355cd11842f9d56ec386427f394266fce820aaa4"
+        }
+      }
+    },
+    {
+      "packageId": "fr-pays-basque",
+      "packageVersion": "1.0.0",
+      "displayName": "Pays Basque",
+      "bounds": {
+        "west": -1.8,
+        "south": 43.28,
+        "east": -1.4,
+        "north": 43.52
+      },
+      "dataVersion": "2026-08-11",
+      "archiveBytes": 17011979,
+      "attributions": [
+        {
+          "text": "© OpenStreetMap contributors",
+          "url": "https://www.openstreetmap.org/copyright",
+          "licence": "ODbL-1.0"
+        },
+        {
+          "text": "© OpenMapTiles",
+          "url": "https://openmaptiles.org/",
+          "licence": "CC-BY-4.0"
+        }
+      ],
+      "objects": {
+        "manifest": {
+          "url": "https://bdherouville.github.io/balise-maps/packages/fr-pays-basque-1.0.0.manifest.json",
+          "bytes": 1634,
+          "sha256": "ea345303dc0348da080be7200b3fa3923eb44fcd1056361e7c24742df4a287f8"
+        },
+        "signature": {
+          "url": "https://bdherouville.github.io/balise-maps/packages/fr-pays-basque-1.0.0.manifest.sig",
+          "bytes": 64,
+          "sha256": "9e55b30cdb1529b9dbe58bf3b7241660f9d8dd4e97cafd22bb5f66cbdf401c71"
+        },
+        "archive": {
+          "url": "https://bdherouville.github.io/balise-maps/packages/fr-pays-basque-1.0.0.pmtiles",
+          "bytes": 17011979,
+          "sha256": "1fc008faccc1aac13e85b868f6988ce85f0b1c6620f0d49890d0fe3e4c6532c1"
         }
       }
     }
