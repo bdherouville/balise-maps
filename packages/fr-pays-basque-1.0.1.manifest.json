@@ -1,7 +1,7 @@
 {
   "schema": "wearosm.map-package/1",
   "packageId": "fr-pays-basque",
-  "packageVersion": "1.0.0",
+  "packageVersion": "1.0.1",
   "displayName": "Pays Basque",
   "bounds": {
     "west": -1.8,
@@ -12,10 +12,10 @@
   "center": {
     "longitude": -1.6,
     "latitude": 43.4,
-    "zoom": 11
+    "zoom": 10
   },
   "archive": {
-    "fileName": "fr-pays-basque-1.0.0.pmtiles",
+    "fileName": "fr-pays-basque-1.0.1.pmtiles",
     "bytes": 17011979,
     "sha256": "1fc008faccc1aac13e85b868f6988ce85f0b1c6620f0d49890d0fe3e4c6532c1",
     "pmtilesSpecVersion": 3,

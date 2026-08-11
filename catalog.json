@@ -1,6 +1,6 @@
 {
   "schema": "wearosm.map-catalog/1",
-  "generatedAt": "2026-08-11T13:25:15Z",
+  "generatedAt": "2026-08-11T13:34:15Z",
   "entries": [
     {
       "packageId": "fr-paris-core",
@@ -46,7 +46,7 @@
     },
     {
       "packageId": "fr-pays-basque",
-      "packageVersion": "1.0.0",
+      "packageVersion": "1.0.1",
       "displayName": "Pays Basque",
       "bounds": {
         "west": -1.8,
@@ -70,17 +70,17 @@
       ],
       "objects": {
         "manifest": {
-          "url": "https://bdherouville.github.io/balise-maps/packages/fr-pays-basque-1.0.0.manifest.json",
+          "url": "https://bdherouville.github.io/balise-maps/packages/fr-pays-basque-1.0.1.manifest.json",
           "bytes": 1634,
-          "sha256": "ea345303dc0348da080be7200b3fa3923eb44fcd1056361e7c24742df4a287f8"
+          "sha256": "ef0670e882c5b02639d537ea5c1160895b5bcaf22cccc5ee54afecae3e4d1d78"
         },
         "signature": {
-          "url": "https://bdherouville.github.io/balise-maps/packages/fr-pays-basque-1.0.0.manifest.sig",
+          "url": "https://bdherouville.github.io/balise-maps/packages/fr-pays-basque-1.0.1.manifest.sig",
           "bytes": 64,
-          "sha256": "9e55b30cdb1529b9dbe58bf3b7241660f9d8dd4e97cafd22bb5f66cbdf401c71"
+          "sha256": "2d4548b7255155136f9263574a6f6e24933f4e1aa78af96fd018bbbee9b0e051"
         },
         "archive": {
-          "url": "https://bdherouville.github.io/balise-maps/packages/fr-pays-basque-1.0.0.pmtiles",
+          "url": "https://bdherouville.github.io/balise-maps/packages/fr-pays-basque-1.0.1.pmtiles",
           "bytes": 17011979,
           "sha256": "1fc008faccc1aac13e85b868f6988ce85f0b1c6620f0d49890d0fe3e4c6532c1"
         }
