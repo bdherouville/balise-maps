@@ -1,10 +1,10 @@
 {
   "schema": "wearosm.map-catalog/1",
-  "generatedAt": "2026-08-12T08:07:49Z",
+  "generatedAt": "2026-08-12T08:24:58Z",
   "entries": [
     {
       "packageId": "es-gipuzkoa-coast",
-      "packageVersion": "1.0.0",
+      "packageVersion": "1.0.1",
       "displayName": "Gipuzkoa",
       "bounds": {
         "west": -2.1,
@@ -28,17 +28,17 @@
       ],
       "objects": {
         "manifest": {
-          "url": "https://bdherouville.github.io/balise-maps/packages/es-gipuzkoa-coast-1.0.0.manifest.json",
-          "bytes": 1640,
-          "sha256": "ced9673e87f283495232857fb159b38ab829864de8dcfaeeef677d591b651fa3"
+          "url": "https://bdherouville.github.io/balise-maps/packages/es-gipuzkoa-coast-1.0.1.manifest.json",
+          "bytes": 1639,
+          "sha256": "371f7eb9e8e54d995a25630e99bd0c08d7d512270f1fcc7b72c2d33e671fae09"
         },
         "signature": {
-          "url": "https://bdherouville.github.io/balise-maps/packages/es-gipuzkoa-coast-1.0.0.manifest.sig",
+          "url": "https://bdherouville.github.io/balise-maps/packages/es-gipuzkoa-coast-1.0.1.manifest.sig",
           "bytes": 64,
-          "sha256": "591565814ae9667d19ecc45f706d5919d71a159fd41970467e122ed9db795f11"
+          "sha256": "ff9657d958e789ed646da51aedb960aec078caf32fd5a202d6e4e96c4812100d"
         },
         "archive": {
-          "url": "https://bdherouville.github.io/balise-maps/packages/es-gipuzkoa-coast-1.0.0.pmtiles",
+          "url": "https://bdherouville.github.io/balise-maps/packages/es-gipuzkoa-coast-1.0.1.pmtiles",
           "bytes": 9157214,
           "sha256": "660a68a841d3a0e88da23531afca4c29ebd45250bfc55661acb91b6b5b7cc4fc"
         }
@@ -88,7 +88,7 @@
     },
     {
       "packageId": "fr-pays-basque",
-      "packageVersion": "1.0.1",
+      "packageVersion": "1.0.2",
       "displayName": "Pays Basque",
       "bounds": {
         "west": -1.8,
@@ -112,17 +112,17 @@
       ],
       "objects": {
         "manifest": {
-          "url": "https://bdherouville.github.io/balise-maps/packages/fr-pays-basque-1.0.1.manifest.json",
-          "bytes": 1634,
-          "sha256": "ef0670e882c5b02639d537ea5c1160895b5bcaf22cccc5ee54afecae3e4d1d78"
+          "url": "https://bdherouville.github.io/balise-maps/packages/fr-pays-basque-1.0.2.manifest.json",
+          "bytes": 1633,
+          "sha256": "d81838d236566bd2ac1124fd83655928be3bbbcb85fc636916a29a1de7febe26"
         },
         "signature": {
-          "url": "https://bdherouville.github.io/balise-maps/packages/fr-pays-basque-1.0.1.manifest.sig",
+          "url": "https://bdherouville.github.io/balise-maps/packages/fr-pays-basque-1.0.2.manifest.sig",
           "bytes": 64,
-          "sha256": "2d4548b7255155136f9263574a6f6e24933f4e1aa78af96fd018bbbee9b0e051"
+          "sha256": "950e988090b49f52c60e3ffc9dc4317c5d9a031d7bfdbbe7956c40ae55529d18"
         },
         "archive": {
-          "url": "https://bdherouville.github.io/balise-maps/packages/fr-pays-basque-1.0.1.pmtiles",
+          "url": "https://bdherouville.github.io/balise-maps/packages/fr-pays-basque-1.0.2.pmtiles",
           "bytes": 17011979,
           "sha256": "1fc008faccc1aac13e85b868f6988ce85f0b1c6620f0d49890d0fe3e4c6532c1"
         }
