@@ -1,23 +1,23 @@
 {
   "schema": "wearosm.map-package/1",
-  "packageId": "es-gipuzkoa-coast",
-  "packageVersion": "1.0.1",
-  "displayName": "Gipuzkoa",
+  "packageId": "fr-pays-basque",
+  "packageVersion": "1.0.3",
+  "displayName": "Pays Basque",
   "bounds": {
-    "west": -2.1,
-    "south": 43.25,
-    "east": -1.75,
-    "north": 43.42
+    "west": -1.8,
+    "south": 43.28,
+    "east": -1.4,
+    "north": 43.52
   },
   "center": {
-    "longitude": -1.925,
-    "latitude": 43.335,
-    "zoom": 11
+    "longitude": -1.6,
+    "latitude": 43.4,
+    "zoom": 10
   },
   "archive": {
-    "fileName": "es-gipuzkoa-coast-1.0.1.pmtiles",
-    "bytes": 9157214,
-    "sha256": "660a68a841d3a0e88da23531afca4c29ebd45250bfc55661acb91b6b5b7cc4fc",
+    "fileName": "fr-pays-basque-1.0.3.pmtiles",
+    "bytes": 17011979,
+    "sha256": "1fc008faccc1aac13e85b868f6988ce85f0b1c6620f0d49890d0fe3e4c6532c1",
     "pmtilesSpecVersion": 3,
     "tileType": "mvt",
     "tileCompression": "gzip"
@@ -30,18 +30,18 @@
     "styleCompatibilityVersion": 1
   },
   "build": {
-    "generatedAt": "2026-08-12T08:07:20.984425Z",
-    "dataVersion": "2026-08-12",
+    "generatedAt": "2026-08-11T13:23:22.184401Z",
+    "dataVersion": "2026-08-11",
     "pipeline": {
       "id": "wearosm-planetiler-openmaptiles",
       "version": "1.0.0",
       "sha256": "c7b41db79515c95bc9af8ab3737a90ffe8e0f3665b122f5387f0aa28fac38aa3"
     },
     "source": {
-      "url": "https://download.geofabrik.de/europe/spain/pais-vasco-latest.osm.pbf",
-      "snapshotDate": "2026-08-12",
-      "bytes": 68537378,
-      "sha256": "e7cad95b7fefb874c411c6e6e759aaa564f6ef4ceb95b68540ce5689e635ef1c",
+      "url": "https://download.geofabrik.de/europe/france/aquitaine-latest.osm.pbf",
+      "snapshotDate": "2026-08-11",
+      "bytes": 294511126,
+      "sha256": "db4dd3e3cf5b00d8b720045062d2311d06490ccbf4ea3ee708bb947bd66c0601",
       "licence": "ODbL-1.0"
     }
   },
@@ -57,5 +57,6 @@
       "licence": "CC-BY-4.0"
     }
   ],
-  "signingKeyId": "balise-r1-2026"
+  "signingKeyId": "balise-r1-2026",
+  "regionCodes": []
 }
