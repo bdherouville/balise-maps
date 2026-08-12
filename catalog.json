@@ -1,7 +1,49 @@
 {
   "schema": "wearosm.map-catalog/1",
-  "generatedAt": "2026-08-11T13:34:15Z",
+  "generatedAt": "2026-08-12T08:07:49Z",
   "entries": [
+    {
+      "packageId": "es-gipuzkoa-coast",
+      "packageVersion": "1.0.0",
+      "displayName": "Gipuzkoa",
+      "bounds": {
+        "west": -2.1,
+        "south": 43.25,
+        "east": -1.75,
+        "north": 43.42
+      },
+      "dataVersion": "2026-08-12",
+      "archiveBytes": 9157214,
+      "attributions": [
+        {
+          "text": "© OpenStreetMap contributors",
+          "url": "https://www.openstreetmap.org/copyright",
+          "licence": "ODbL-1.0"
+        },
+        {
+          "text": "© OpenMapTiles",
+          "url": "https://openmaptiles.org/",
+          "licence": "CC-BY-4.0"
+        }
+      ],
+      "objects": {
+        "manifest": {
+          "url": "https://bdherouville.github.io/balise-maps/packages/es-gipuzkoa-coast-1.0.0.manifest.json",
+          "bytes": 1640,
+          "sha256": "ced9673e87f283495232857fb159b38ab829864de8dcfaeeef677d591b651fa3"
+        },
+        "signature": {
+          "url": "https://bdherouville.github.io/balise-maps/packages/es-gipuzkoa-coast-1.0.0.manifest.sig",
+          "bytes": 64,
+          "sha256": "591565814ae9667d19ecc45f706d5919d71a159fd41970467e122ed9db795f11"
+        },
+        "archive": {
+          "url": "https://bdherouville.github.io/balise-maps/packages/es-gipuzkoa-coast-1.0.0.pmtiles",
+          "bytes": 9157214,
+          "sha256": "660a68a841d3a0e88da23531afca4c29ebd45250bfc55661acb91b6b5b7cc4fc"
+        }
+      }
+    },
     {
       "packageId": "fr-paris-core",
       "packageVersion": "1.0.0",

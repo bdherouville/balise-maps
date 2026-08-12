@@ -1,0 +1,61 @@
+{
+  "schema": "wearosm.map-package/1",
+  "packageId": "es-gipuzkoa-coast",
+  "packageVersion": "1.0.0",
+  "displayName": "Gipuzkoa",
+  "bounds": {
+    "west": -2.1,
+    "south": 43.25,
+    "east": -1.75,
+    "north": 43.42
+  },
+  "center": {
+    "longitude": -1.925,
+    "latitude": 43.335,
+    "zoom": 11
+  },
+  "archive": {
+    "fileName": "es-gipuzkoa-coast-1.0.0.pmtiles",
+    "bytes": 9157214,
+    "sha256": "660a68a841d3a0e88da23531afca4c29ebd45250bfc55661acb91b6b5b7cc4fc",
+    "pmtilesSpecVersion": 3,
+    "tileType": "mvt",
+    "tileCompression": "gzip"
+  },
+  "compatibility": {
+    "minZoom": 8,
+    "maxZoom": 15,
+    "tileSchema": "openmaptiles",
+    "tileSchemaVersion": "3.16.0-planetiler.91516fdf",
+    "styleCompatibilityVersion": 1
+  },
+  "build": {
+    "generatedAt": "2026-08-12T08:07:20.984425Z",
+    "dataVersion": "2026-08-12",
+    "pipeline": {
+      "id": "wearosm-planetiler-openmaptiles",
+      "version": "1.0.0",
+      "sha256": "c7b41db79515c95bc9af8ab3737a90ffe8e0f3665b122f5387f0aa28fac38aa3"
+    },
+    "source": {
+      "url": "https://download.geofabrik.de/europe/spain/pais-vasco-latest.osm.pbf",
+      "snapshotDate": "2026-08-12",
+      "bytes": 68537378,
+      "sha256": "e7cad95b7fefb874c411c6e6e759aaa564f6ef4ceb95b68540ce5689e635ef1c",
+      "licence": "ODbL-1.0"
+    }
+  },
+  "attributions": [
+    {
+      "text": "© OpenStreetMap contributors",
+      "url": "https://www.openstreetmap.org/copyright",
+      "licence": "ODbL-1.0"
+    },
+    {
+      "text": "© OpenMapTiles",
+      "url": "https://openmaptiles.org/",
+      "licence": "CC-BY-4.0"
+    }
+  ],
+  "signingKeyId": "wearosm-r1-2026"
+}
